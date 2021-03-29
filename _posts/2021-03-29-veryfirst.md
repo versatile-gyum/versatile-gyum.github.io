@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "🧩C Language-Study🧩"
+title: "🎲C Language-Study🎲"
 ---
 
 # What are you up to?
