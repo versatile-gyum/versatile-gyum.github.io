@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Haunted House"
+title: "✨C Language-Study✨"
 ---
 
 # What are you up to?
