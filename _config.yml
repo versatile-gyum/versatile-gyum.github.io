@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "겸"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /assets/images/로고.png
   bio              : "<3"
   location         : "Mars"
   email            : "gyum0807@gmail.com"
