@@ -3,6 +3,7 @@
 ---
 ### 프로그래밍
 C, Python: 배운지 2달됨 좋아는 하지만 잘하지는 못함  
+![replit](/assets/images/replit.PNG)  
 ## 인문
 ---
 ### 문화인류학
