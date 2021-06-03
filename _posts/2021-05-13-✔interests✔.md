@@ -4,7 +4,7 @@ title: ✔interests✔
 toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
-categories: "소개"
+categories: 소개
 ---
 # 관심사
 ### 01. 자연, 공학
