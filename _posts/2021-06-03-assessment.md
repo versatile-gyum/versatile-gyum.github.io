@@ -4,7 +4,7 @@ title: "수행평가 정리"
 toc: true
 toc_sticky: true
 toc_label: "페이지 주요 목차"
-categories: "학교"
+categories: 학교
 ---
 ### 서론
 수행평가 문항이 될 수업 중 형성평가 내용 정리
