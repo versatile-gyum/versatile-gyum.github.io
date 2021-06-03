@@ -53,3 +53,67 @@ int main(void) {
   return 0;
 }
 ~~~
+   
+### 05. 책 구입
+용돈을 입력받고 그 용돈으로 책을 살 수 있으면 "책을 살 수 있습니다."와 남은 용돈, 살 수 없으면 "책을 살 수 없습니다."를 출력
+   
+### 06. 도어락
+ic, 비밀번호, 지문으로 열 수 있는 도어락이 열리면 "문 열림~", 열리지 않으면 "디리릭!"을 출력
+~~~c
+#include <stdio.h>
+
+int main(void) {
+  char ic;
+  int pw;
+  double pf;
+  int method;
+  printf("ic카드(1)나 비밀번호(2)나 지문(3) 중 인증 방법을 선택하세요 :");
+  scanf("%d", &method);
+  if (method==1){
+    printf("ic카드 :");
+   scanf(" %c", &ic);
+     if (ic=='c')
+     {printf("문 열림~");}
+     else
+     {printf("디리릭!");}}
+  if(method==2) {
+    printf("비밀번호 :");
+    scanf(" %d", &pw);
+    if (pw==24689)
+      printf("문 열림~");
+    else 
+    printf("디리릭!"); }
+  if(method==3)
+    printf("지문 :");
+    scanf("%lf", &pf);
+    if (pf==1.2345678)
+      printf("문 열림~");
+    else
+      printf("디리릭!");
+  return 0;
+}
+~~~
+   
+### 07. 등급 나누기
+점수를 입력 받으면 해당하는 등급을 출력
+   
+### 08. 가위바위보
+r, s, p 중 하나를 입력받고 "이겼다", "졌다", "비겼다"를 출력 (랜덤으로 r, s, p를 지정해야하지만 그냥 미리 컴퓨터의 r, s, p 값을 지정해두고 코드를 짬)
+~~~c
+#include <stdio.h>
+
+int main(void) {
+  char hand;
+  char hand2='s';
+  printf("입력(가위:s, 바위:r, 보:p):");
+  scanf("%c" , &hand);
+  if (hand==hand2)
+    printf("비겨따!");
+  else
+    {if ((hand=='r' && hand2=='s')|| (hand=='s'&&hand2=='p')|| (hand=='p'&&hand=='r'))
+       printf("이겨따!");
+     else
+       printf("져따!");}
+  return 0;
+}
+~~~
