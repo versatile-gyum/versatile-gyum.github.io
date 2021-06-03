@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "🎲C Language-Study🎲"
-categories: "소개"
+categories: 소개
 ---
 
 # What are you up to?
